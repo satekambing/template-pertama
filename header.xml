@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<b:include data='blog' name='all-head-content'/>
+	<title><data:blog.pageTitle/></title>
+	<b:skin> <![CDATA[
+  /* Header 
+    #header-inner => Keseluruhan, Di dalamnya ada
+      .titlewrapper 
+        .title
+      .descriptionwrapper
+        .description
+  */
+
+  #header-inner {
+    background-color: skyblue
+
+  }
+
+  .titlewrapper {
+    background-color: green
+  }
+
+  .title {
+    background-color: red
+  }
+  .descriptionwrapper {
+    background-color: yellow
+  }
+  .description {
+    background-color  : pink;
+    
+  }
+
+	]]></b:skin>
+</head>
+<body>
+  <header>
+    <b:section id="NamaID" showaddelement="yes" >
+      <b:widget id="Header1" type="Header" title="header"></b:widget>
+    </b:section>
+  </header>
+</body>
+</html>
+
+<!--
+<data:title />	
+<data:description />
+-->
