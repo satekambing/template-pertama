@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<b:include data='blog' name='all-head-content'/>
+	<title><data:blog.pageTitle/></title>
+
+	<b:skin> <![CDATA[
+	/* Definisi Variable nya Disini  
+  	
+  	*/
+  		
+  		
+	]]></b:skin>
+</head>
+<body>
+  <b:section id="NamaID" showaddelement="yes" >
+  </b:section>
+</body>
+</html>
+
