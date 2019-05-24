@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html b:version='2'  b:defaultwidgetversion='2' b:responsive='true' class='v2' b:layoutsVersion='3' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+	<b:include data='blog' name='all-head-content'/>
+	<title><data:blog.pageTitle/></title>
+
+	<b:skin> <![CDATA[
+	/* Definisi Variable nya Disini  
+  	
+  */
+
+  .PopularPosts, .widget { 
+    background-color: red;
+    padding: 1%;
+  }
+
+  .title {
+    background-color: yellow;
+    color: black;
+    padding: 1%;
+
+  }
+  .widget-content {
+    background-color: green;
+    padding: 1%;
+
+  }
+  .widget-content .post {
+    background-color: skyblue;
+    padding: 1%;
+
+  }
+  .widget-content .post-content {
+    background-color: purple;
+    padding: 1%;
+  }
+
+  .widget-content .post-title {
+    background-color: maroon;
+    padding: 1%;   
+  }
+
+    color: #fff;
+    text-decoration: none;
+
+  .widget-content .post-snippet {
+    background-color: pink;
+    padding: 1%;    
+  }
+
+
+	]]></b:skin>
+</head>
+<body>
+  <b:section id="NamaID" showaddelement="yes" >
+    <b:widget id="PopularPosts1" type="PopularPosts" title="Post Terpopuler"></b:widget>
+  </b:section>
+</body>
+</html>
+
+
+<!--
+.PopularPosts
+  .title
+  .widget-content
+    .post
+    .post-content
+      .post-title
+      .post-snippet 
+
+-->
