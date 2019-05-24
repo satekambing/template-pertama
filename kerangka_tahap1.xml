@@ -8,24 +8,112 @@
 	/* Definisi Variable nya Disini  
   	
   	*/
-  
+  	.keterangan {background: skyblue; font-size: 16px; text-align: center;font-weight: normal}
   		
   		
 	]]></b:skin>
 </head>
 <body>
 	<!-- Bagian Header-->
-	<b:section id='sHeader' showaddelement="no" locked="true">
-        	<b:widget id="Header1" type="Header" title="Bagian Header">
-      		</b:widget>
+	<h1 class="keterangan">Header</h1>
+	<b:section id='sHeader' showaddelement="yes" locked="true">
+    	<b:widget id="Header1" type="Header" title="Bagian Header"></b:widget>
 	</b:section>
 	<!-- End Header -->
 	<!-- Navbar -->
-	<b:section id="sNav" showaddelement="no" locked="true">
+	<h1 class="keterangan">Navbar</h1>
+	<b:section id="sNav" showaddelement="yes" locked="true">
       		<b:widget id="Navbar1" type="Navbar" title="Navigasi Menu">
       		</b:widget>
-    	</b:section>
+    </b:section>
 	<!-- End Navbar-->
+
+	<h1 class="keterangan">BlogArchive</h1>
+	<b:section id="sBlogArchive" showaddelement="yes" locked="true">
+      		<b:widget id="BlogArchive1" type="BlogArchive" title="">
+      		</b:widget>
+    </b:section>
 	
+	<h1 class="keterangan">Blog</h1>
+	<b:section id="sBlog" showaddelement="yes" locked="true">
+      		<b:widget id="Blog1" type="Blog" title="Blog">
+      		</b:widget>
+    </b:section>
+
+	<h1 class="keterangan">PopularPosts</h1>
+	<b:section id="sPopularPosts" showaddelement="yes" locked="true">
+      		<b:widget id="PopularPosts1" type="PopularPosts" title="PopularPosts">
+      		</b:widget>
+    </b:section>
+
+	<h1 class="keterangan">LinkList</h1>
+	<b:section id="sLinkList" showaddelement="yes" locked="true">
+      		<b:widget id="LinkList1" type="LinkList" title="LinkList">
+      		</b:widget>
+    </b:section>
+
+	<h1 class="keterangan">FeaturedPost</h1>
+	<b:section id="sFeaturedPost" showaddelement="yes" locked="true">
+      		<b:widget id="FeaturedPost1" type="FeaturedPost" title="FeaturedPost">
+      		</b:widget>
+    </b:section>
+
+	<h1 class="keterangan">Label</h1>
+	<b:section id="sLabel" showaddelement="yes" locked="true">
+      		<b:widget id="Label1" type="Label" title="Label">
+      		</b:widget>
+    </b:section>
+
+	<h1 class="keterangan">Profile</h1>
+	<b:section id="sProfile" showaddelement="yes" locked="true">
+      		<b:widget id="Profile1" type="Profile" title="Profile">
+      		</b:widget>
+    </b:section>
+
+	<h1 class="keterangan">BlogSearch</h1>
+	<b:section id="sBlogSearch" showaddelement="yes" locked="true">
+      		<b:widget id="BlogSearch1" type="BlogSearch" title="BlogSearch">
+      		</b:widget>
+    </b:section>
+
+	<h1 class="keterangan">PageList</h1>
+	<b:section id="sPageList" showaddelement="yes" locked="true">
+      		<b:widget id="PageList1" type="PageList" title="PageList">
+      		</b:widget>
+    </b:section>
+	
+
 </body>
 </html>
+<!-- 
+BlogArchive
+Blog
+Feed
+Header
+HTML
+LinkList
+BlogProfile
+Navbar
+VideoBar
+NewsBar 
+
+
+PopularPosts
+FeaturedPost
+Label
+Profile
+BlogSearch
+PageList => dari menu halaman.. akan dibuatkan menu
+
+List
+Logo
+SingleImage
+Text
+LinkList
+Translate
+FollowByEmail
+BlogList
+Stats
+Image
+Followers
+-->
