@@ -13,6 +13,11 @@
     background-color: red;
     padding: 1%;
   }
+  .Blog {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #efefef;
+  }
   .post-outer{
     background-color: yellow;
     padding: 1%;
@@ -36,6 +41,13 @@
     padding: 0;
     margin: 0;
   }
+
+
+
+
+  /* di bawahnya*/
+  .blog-pager {background-color: gray; margin: 0; padding: 0}
+  .blog-feeds {background-color: pink; margin: 0; padding: 0}
   ]]></b:skin>
 </head>
 <body>
@@ -47,8 +59,8 @@
 
 <!--
 .Blog
-  .blog-posts
 
+  .blog-posts
     .post-outer-container
       .post-outer
         .post
